@@ -52,10 +52,10 @@
 ## CONTACT
 | Contact |
 |---|
-| Project Lead - [Name] [email] |
-| Data Engineering Owner - [Name] [email] |
-| Data Modeling Owner - [Name] [email] |
-| Visualization and Reporting Owner - [Name] [email] |
+| Project Lead - DAYAG, Drei Cerise  dreicerise.dayag.sci@ust.edu.ph |
+| Data Engineering Owner - CARLOS, Mikaela Angela  mikaelaangela.carlos.sci@ust.edu.ph |
+| Data Modeling Owner - OLIVA, Maria Camela  mariacamela.oliva.sci@ust.edu.ph |
+| Visualization and Reporting Owner - HABALUYAS, Althea Marie  altheamarie.habaluyas.sci@ust.edu.ph |
 
 ---
 *This guide accompanies the Adventure Works BI dashboard submitted for DS4157, Activity #1. AI assistance was used in the development of this project as disclosed in the accompanying written report.*
