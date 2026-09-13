@@ -17,6 +17,7 @@
 | `AdventureWorksDW2025_DataDictionaryCode.py` | Script used to help generate/populate the data dictionary. |
 | `AdventureWorksDW2025_DataInventory.xlsx` | Source data profiling, such as row counts, data types, null rates, and other data quality observations gathered before modeling began. |
 | `AdventureWorksDW2025_DataInventoryCode.py` | Script used to help generate the data inventory. |
+| `McRegAnalytics_DataDocumentation.pdf` | Technical detail on the database AdventureWorksDW2025: data inventory, EDA, data dictionary, and ERD |
 | `McRegAnalytics_BusinessCase.pdf` | The approved business case: sponsor, problem statement, key business questions, and success measures. |
 | `McRegAnalytics_WrittenReport.pdf` | Full write-up of business context, methodology, key findings, action plan, and limitations/assumptions. |
 | `McRegAnalytics_TechnicalDocumentation.pdf` | Technical detail on the data model: tables, relationships, measures (DAX), and calculated columns. |
