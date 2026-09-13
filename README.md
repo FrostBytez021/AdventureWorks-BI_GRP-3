@@ -12,19 +12,19 @@
  
 | File | Description |
 |---|---|
-| `[dashboard-file-name].pbix` | The Power BI dashboard — covering Executive Overview, Channel Performance, Product Performance, Marketing Performance, Customer Insights, and Employee Evaluation. |
+| `McRegAnalytics_Dashboard.pbix` | The Power BI dashboard — covering Executive Overview, Channel Performance, Product Performance, Marketing Performance, Customer Insights, and Employee Evaluation. |
 | `AdventureWorksDW2025_DataDictionary.csv` | Field-level data dictionary covering every column used in the model: source table, data type, business definition, and derivation logic. |
 | `AdventureWorksDW2025_DataDictionaryCode.py` | Script used to help generate/populate the data dictionary. |
 | `AdventureWorksDW2025_DataInventory.xlsx` | Source data profiling, such as row counts, data types, null rates, and other data quality observations gathered before modeling began. |
 | `AdventureWorksDW2025_DataInventoryCode.py` | Script used to help generate the data inventory. |
 | `McRegAnalytics_BusinessCase.pdf` | The approved business case: sponsor, problem statement, key business questions, and success measures. |
-| `McRegAnalytics_DataDocumentation.pdf` | Full write-up of business context, methodology, key findings, action plan, and limitations/assumptions. |
+| `McRegAnalytics_WrittenReport.pdf` | Full write-up of business context, methodology, key findings, action plan, and limitations/assumptions. |
 | `McRegAnalytics_TechnicalDocumentation.pdf` | Technical detail on the data model: tables, relationships, measures (DAX), and calculated columns. |
 | `README.md` | This file. |
 
 ---
 ## HOW?
-- Download the `[dashboard-file-name].pbix` file from this repository and open it in **Power BI Desktop**; free and no sign-in is required to view a local file.
+- Click the dashboard link, then download the `McRegAnalytics_Dashboard.pbix` file from this repository and open it in **Power BI Desktop**; free and no sign-in is required to view a local file.
 
 ---
 ## Navigation
