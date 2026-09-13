@@ -1,0 +1,224 @@
+TABLE NAME,ATTRIBUTE NAME,CONTENTS,TYPE,FORMAT,RANGE,REQUIRED,PK or FK,FK REFERENCED TABLE
+DimCustomer,CustomerKey,Column containing CustomerKey,INT,Integer,11000 to 29483,Yes,PK,N/A
+DimCustomer,GeographyKey,Column containing GeographyKey,INT,Integer,2 to 654,No,FK,DimGeography
+DimCustomer,CustomerAlternateKey,Column containing CustomerAlternateKey,NVARCHAR,Text,AW00011000 to AW00029483,Yes,No,N/A
+DimCustomer,Title,Column containing Title,NVARCHAR,Text,Mr. to Sr.,No,No,N/A
+DimCustomer,FirstName,Column containing FirstName,NVARCHAR,Text,Aaron to Zoe,No,No,N/A
+DimCustomer,MiddleName,Column containing MiddleName,NVARCHAR,Text,A to Z,No,No,N/A
+DimCustomer,LastName,Column containing LastName,NVARCHAR,Text,Adams to Zukowski,No,No,N/A
+DimCustomer,NameStyle,Column containing NameStyle,BIT,Boolean (0/1),N/A,No,No,N/A
+DimCustomer,BirthDate,Column containing BirthDate,DATE,YYYY-MM-DD,1916-02-10 to 1986-06-25,No,No,N/A
+DimCustomer,MaritalStatus,Column containing MaritalStatus,NCHAR,Text,M to S,No,No,N/A
+DimCustomer,Suffix,Column containing Suffix,NVARCHAR,Text,Jr.,No,No,N/A
+DimCustomer,Gender,Column containing Gender,NVARCHAR,Text,F to M,No,No,N/A
+DimCustomer,EmailAddress,Column containing EmailAddress,NVARCHAR,Text,aaron10@adventure-works.com to zoe9@adventure-works.com,No,No,N/A
+DimCustomer,YearlyIncome,Column containing YearlyIncome,MONEY,Currency / Decimal,10000.0000 to 170000.0000,No,No,N/A
+DimCustomer,TotalChildren,Column containing TotalChildren,TINYINT,Integer,0 to 5,No,No,N/A
+DimCustomer,NumberChildrenAtHome,Column containing NumberChildrenAtHome,TINYINT,Integer,0 to 5,No,No,N/A
+DimCustomer,EnglishEducation,Column containing EnglishEducation,NVARCHAR,Text,Bachelors to Partial High School,No,No,N/A
+DimCustomer,SpanishEducation,Column containing SpanishEducation,NVARCHAR,Text,Educación secundaria to Licenciatura,No,No,N/A
+DimCustomer,FrenchEducation,Column containing FrenchEducation,NVARCHAR,Text,Bac + 2 to Niveau bac,No,No,N/A
+DimCustomer,EnglishOccupation,Column containing EnglishOccupation,NVARCHAR,Text,Clerical to Skilled Manual,No,No,N/A
+DimCustomer,SpanishOccupation,Column containing SpanishOccupation,NVARCHAR,Text,Administrativo to Profesional,No,No,N/A
+DimCustomer,FrenchOccupation,Column containing FrenchOccupation,NVARCHAR,Text,Cadre to Technicien,No,No,N/A
+DimCustomer,HouseOwnerFlag,Column containing HouseOwnerFlag,NCHAR,Text,0 to 1,No,No,N/A
+DimCustomer,NumberCarsOwned,Column containing NumberCarsOwned,TINYINT,Integer,0 to 4,No,No,N/A
+DimCustomer,AddressLine1,Column containing AddressLine1,NVARCHAR,Text,"00, rue Saint-Lazare to Zur Lindung 787",No,No,N/A
+DimCustomer,AddressLine2,Column containing AddressLine2,NVARCHAR,Text,# 1 to Verkaufsabteilung,No,No,N/A
+DimCustomer,Phone,Column containing Phone,NVARCHAR,Text,1 (11) 500 555-0110 to 999-555-0198,No,No,N/A
+DimCustomer,DateFirstPurchase,Column containing DateFirstPurchase,DATE,YYYY-MM-DD,2010-12-29 to 2014-01-28,No,No,N/A
+DimCustomer,CommuteDistance,Column containing CommuteDistance,NVARCHAR,Text,0-1 Miles to 5-10 Miles,No,No,N/A
+DimDate,DateKey,Column containing DateKey,INT,Integer,20050101 to 20141231,Yes,PK,N/A
+DimDate,FullDateAlternateKey,Column containing FullDateAlternateKey,DATE,YYYY-MM-DD,2005-01-01 to 2014-12-31,Yes,No,N/A
+DimDate,DayNumberOfWeek,Column containing DayNumberOfWeek,TINYINT,Integer,1 to 7,Yes,No,N/A
+DimDate,EnglishDayNameOfWeek,Column containing EnglishDayNameOfWeek,NVARCHAR,Text,Friday to Wednesday,Yes,No,N/A
+DimDate,SpanishDayNameOfWeek,Column containing SpanishDayNameOfWeek,NVARCHAR,Text,Domingo to Viernes,Yes,No,N/A
+DimDate,FrenchDayNameOfWeek,Column containing FrenchDayNameOfWeek,NVARCHAR,Text,Dimanche to Vendredi,Yes,No,N/A
+DimDate,DayNumberOfMonth,Column containing DayNumberOfMonth,TINYINT,Integer,1 to 31,Yes,No,N/A
+DimDate,DayNumberOfYear,Column containing DayNumberOfYear,SMALLINT,Integer,1 to 366,Yes,No,N/A
+DimDate,WeekNumberOfYear,Column containing WeekNumberOfYear,TINYINT,Integer,1 to 53,Yes,No,N/A
+DimDate,EnglishMonthName,Column containing EnglishMonthName,NVARCHAR,Text,April to September,Yes,No,N/A
+DimDate,SpanishMonthName,Column containing SpanishMonthName,NVARCHAR,Text,Abril to Septiembre,Yes,No,N/A
+DimDate,FrenchMonthName,Column containing FrenchMonthName,NVARCHAR,Text,Août to Septembre,Yes,No,N/A
+DimDate,MonthNumberOfYear,Column containing MonthNumberOfYear,TINYINT,Integer,1 to 12,Yes,No,N/A
+DimDate,CalendarQuarter,Column containing CalendarQuarter,TINYINT,Integer,1 to 4,Yes,No,N/A
+DimDate,CalendarYear,Column containing CalendarYear,SMALLINT,Integer,2005 to 2014,Yes,No,N/A
+DimDate,CalendarSemester,Column containing CalendarSemester,TINYINT,Integer,1 to 2,Yes,No,N/A
+DimDate,FiscalQuarter,Column containing FiscalQuarter,TINYINT,Integer,1 to 4,Yes,No,N/A
+DimDate,FiscalYear,Column containing FiscalYear,SMALLINT,Integer,2005 to 2014,Yes,No,N/A
+DimDate,FiscalSemester,Column containing FiscalSemester,TINYINT,Integer,1 to 2,Yes,No,N/A
+DimEmployee,EmployeeKey,Column containing EmployeeKey,INT,Integer,1 to 296,Yes,PK,N/A
+DimEmployee,ParentEmployeeKey,Column containing ParentEmployeeKey,INT,Integer,3 to 294,No,FK,DimEmployee
+DimEmployee,EmployeeNationalIDAlternateKey,Column containing EmployeeNationalIDAlternateKey,NVARCHAR,Text,10708100 to 999440576,No,No,N/A
+DimEmployee,ParentEmployeeNationalIDAlternateKey,Column containing ParentEmployeeNationalIDAlternateKey,NVARCHAR,Text,All NULLs,No,No,N/A
+DimEmployee,SalesTerritoryKey,Column containing SalesTerritoryKey,INT,Integer,1 to 11,No,FK,DimSalesTerritory
+DimEmployee,FirstName,Column containing FirstName,NVARCHAR,Text,A. Scott to Zheng,Yes,No,N/A
+DimEmployee,LastName,Column containing LastName,NVARCHAR,Text,Abbas to Zwilling,Yes,No,N/A
+DimEmployee,MiddleName,Column containing MiddleName,NVARCHAR,Text,A to Z,No,No,N/A
+DimEmployee,NameStyle,Column containing NameStyle,BIT,Boolean (0/1),N/A,Yes,No,N/A
+DimEmployee,Title,Column containing Title,NVARCHAR,Text,Accountant to Vice President of Sales,No,No,N/A
+DimEmployee,HireDate,Column containing HireDate,DATE,YYYY-MM-DD,2006-01-28 to 2012-12-28,No,No,N/A
+DimEmployee,BirthDate,Column containing BirthDate,DATE,YYYY-MM-DD,1939-07-11 to 1990-12-29,No,No,N/A
+DimEmployee,LoginID,Column containing LoginID,NVARCHAR,Text,adventure-works\alan0 to adventure-works\zheng0,No,No,N/A
+DimEmployee,EmailAddress,Column containing EmailAddress,NVARCHAR,Text,alan0@adventure-works.com to zheng0@adventure-works.com,No,No,N/A
+DimEmployee,Phone,Column containing Phone,NVARCHAR,Text,1 (11) 500 555-0117 to 999-555-0155,No,No,N/A
+DimEmployee,MaritalStatus,Column containing MaritalStatus,NCHAR,Text,M to S,No,No,N/A
+DimEmployee,EmergencyContactName,Column containing EmergencyContactName,NVARCHAR,Text,A. Scott Wright to Zheng Mu,No,No,N/A
+DimEmployee,EmergencyContactPhone,Column containing EmergencyContactPhone,NVARCHAR,Text,1 (11) 500 555-0117 to 999-555-0155,No,No,N/A
+DimEmployee,SalariedFlag,Column containing SalariedFlag,BIT,Boolean (0/1),N/A,No,No,N/A
+DimEmployee,Gender,Column containing Gender,NCHAR,Text,F to M,No,No,N/A
+DimEmployee,PayFrequency,Column containing PayFrequency,TINYINT,Integer,1 to 2,No,No,N/A
+DimEmployee,BaseRate,Column containing BaseRate,MONEY,Currency / Decimal,9.0000 to 125.5000,No,No,N/A
+DimEmployee,VacationHours,Column containing VacationHours,SMALLINT,Integer,0 to 99,No,No,N/A
+DimEmployee,SickLeaveHours,Column containing SickLeaveHours,SMALLINT,Integer,20 to 80,No,No,N/A
+DimEmployee,CurrentFlag,Column containing CurrentFlag,BIT,Boolean (0/1),N/A,Yes,No,N/A
+DimEmployee,SalesPersonFlag,Column containing SalesPersonFlag,BIT,Boolean (0/1),N/A,Yes,No,N/A
+DimEmployee,DepartmentName,Column containing DepartmentName,NVARCHAR,Text,Document Control to Tool Design,No,No,N/A
+DimEmployee,StartDate,Column containing StartDate,DATE,YYYY-MM-DD,2006-01-28 to 2013-06-13,No,No,N/A
+DimEmployee,EndDate,Column containing EndDate,DATE,YYYY-MM-DD,2009-02-11 to 2013-06-13,No,No,N/A
+DimEmployee,Status,Column containing Status,NVARCHAR,Text,Current,No,No,N/A
+DimEmployee,EmployeePhoto,Column containing EmployeePhoto,VARBINARY,varbinary,N/A,No,No,N/A
+DimGeography,GeographyKey,Column containing GeographyKey,INT,Integer,1 to 655,Yes,PK,N/A
+DimGeography,City,Column containing City,NVARCHAR,Text,Abingdon to Zeeland,No,No,N/A
+DimGeography,StateProvinceCode,Column containing StateProvinceCode,NVARCHAR,Text,17 to WY,No,No,N/A
+DimGeography,StateProvinceName,Column containing StateProvinceName,NVARCHAR,Text,Alabama to Yveline,No,No,N/A
+DimGeography,CountryRegionCode,Column containing CountryRegionCode,NVARCHAR,Text,AU to US,No,No,N/A
+DimGeography,EnglishCountryRegionName,Column containing EnglishCountryRegionName,NVARCHAR,Text,Australia to United States,No,No,N/A
+DimGeography,SpanishCountryRegionName,Column containing SpanishCountryRegionName,NVARCHAR,Text,Alemania to Reino Unido,No,No,N/A
+DimGeography,FrenchCountryRegionName,Column containing FrenchCountryRegionName,NVARCHAR,Text,Allemagne to Royaume-Uni,No,No,N/A
+DimGeography,PostalCode,Column containing PostalCode,NVARCHAR,Text,01071 to YO15,No,No,N/A
+DimGeography,SalesTerritoryKey,Column containing SalesTerritoryKey,INT,Integer,1 to 10,No,FK,DimSalesTerritory
+DimGeography,IpAddressLocator,Column containing IpAddressLocator,NVARCHAR,Text,192.0.2.1 to 203.0.113.99,No,No,N/A
+DimProduct_Combined,ProductKey,Column containing ProductKey,INT,Integer,1 to 606,Yes,PK,N/A
+DimProduct_Combined,ProductAlternateKey,Column containing ProductAlternateKey,NVARCHAR,Text,AR-5381 to WB-H098,No,No,N/A
+DimProduct_Combined,EnglishProductName,Column containing EnglishProductName,NVARCHAR,Text,"Adjustable Race to Women's Tights, S",Yes,No,N/A
+DimProduct_Combined,StandardCost,Column containing StandardCost,MONEY,Currency / Decimal,0.8565 to 2171.2942,No,No,N/A
+DimProduct_Combined,FinishedGoodsFlag,Column containing FinishedGoodsFlag,BIT,Boolean (0/1),N/A,Yes,No,N/A
+DimProduct_Combined,Color,Column containing Color,NVARCHAR,Text,Black to Yellow,Yes,No,N/A
+DimProduct_Combined,SafetyStockLevel,Column containing SafetyStockLevel,SMALLINT,Integer,4 to 1000,No,No,N/A
+DimProduct_Combined,ReorderPoint,Column containing ReorderPoint,SMALLINT,Integer,3 to 750,No,No,N/A
+DimProduct_Combined,ListPrice,Column containing ListPrice,MONEY,Currency / Decimal,2.2900 to 3578.2700,No,No,N/A
+DimProduct_Combined,Size,Column containing Size,NVARCHAR,Text,38 to XL,No,No,N/A
+DimProduct_Combined,SizeRange,Column containing SizeRange,NVARCHAR,Text,38-40 CM to XL,No,No,N/A
+DimProduct_Combined,Weight,Column containing Weight,FLOAT,Currency / Decimal,2.12 to 1050.0,No,No,N/A
+DimProduct_Combined,DaysToManufacture,Column containing DaysToManufacture,INT,Integer,0 to 4,No,No,N/A
+DimProduct_Combined,ProductLine,Column containing ProductLine,NCHAR,Text,M  to T ,No,No,N/A
+DimProduct_Combined,DealerPrice,Column containing DealerPrice,MONEY,Currency / Decimal,1.3740 to 2146.9620,No,No,N/A
+DimProduct_Combined,Class,Column containing Class,NCHAR,Text,H  to M ,No,No,N/A
+DimProduct_Combined,Style,Column containing Style,NCHAR,Text,M  to W ,No,No,N/A
+DimProduct_Combined,ModelName,Column containing ModelName,NVARCHAR,Text,All-Purpose Bike Stand to Women's Tights,No,No,N/A
+DimProduct_Combined,EnglishDescription,Column containing EnglishDescription,NVARCHAR,Text,"A light yet stiff aluminum bar for long distance riding. to Wraps to fit front and rear tires, carrier and 2 keys included.",No,No,N/A
+DimProduct_Combined,Status,Column containing Status,NVARCHAR,Text,Current,No,No,N/A
+DimProduct_Combined,ProductSubcategoryKey,Column containing ProductSubcategoryKey,INT,Integer,1 to 37,No,No,N/A
+DimProduct_Combined,EnglishProductSubcategoryName,Column containing EnglishProductSubcategoryName,NVARCHAR,Text,Bib-Shorts to Wheels,No,No,N/A
+DimProduct_Combined,ProductCategoryKey,Column containing ProductCategoryKey,INT,Integer,1 to 4,No,No,N/A
+DimProduct_Combined,EnglishProductCategoryName,Column containing EnglishProductCategoryName,NVARCHAR,Text,Accessories to Components,No,No,N/A
+DimPromotion,PromotionKey,Column containing PromotionKey,INT,Integer,1 to 16,Yes,PK,N/A
+DimPromotion,PromotionAlternateKey,Column containing PromotionAlternateKey,INT,Integer,1 to 16,No,FK,N/A
+DimPromotion,EnglishPromotionName,Column containing EnglishPromotionName,NVARCHAR,Text,Half-Price Pedal Sale to Volume Discount over 60,No,No,N/A
+DimPromotion,SpanishPromotionName,Column containing SpanishPromotionName,NVARCHAR,Text,"Bicicleta de carretera: 650, oferta especial to Venta de pedales a mitad de precio",No,No,N/A
+DimPromotion,FrenchPromotionName,Column containing FrenchPromotionName,NVARCHAR,Text,Aucune remise to Vente de pneus de VTT,No,No,N/A
+DimPromotion,DiscountPct,Column containing DiscountPct,FLOAT,Currency / Decimal,0.0 to 0.5,No,No,N/A
+DimPromotion,EnglishPromotionType,Column containing EnglishPromotionType,NVARCHAR,Text,Discontinued Product to Volume Discount,No,No,N/A
+DimPromotion,SpanishPromotionType,Column containing SpanishPromotionType,NVARCHAR,Text,Descatalogado to Sin descuento,No,No,N/A
+DimPromotion,FrenchPromotionType,Column containing FrenchPromotionType,NVARCHAR,Text,Aucune remise to Remise sur quantité,No,No,N/A
+DimPromotion,EnglishPromotionCategory,Column containing EnglishPromotionCategory,NVARCHAR,Text,Customer to Reseller,No,No,N/A
+DimPromotion,SpanishPromotionCategory,Column containing SpanishPromotionCategory,NVARCHAR,Text,Cliente to Sin descuento,No,No,N/A
+DimPromotion,FrenchPromotionCategory,Column containing FrenchPromotionCategory,NVARCHAR,Text,Aucune remise to Revendeur,No,No,N/A
+DimPromotion,StartDate,Column containing StartDate,DATETIME,YYYY-MM-DD,2010-11-29 00:00:00 to 2013-10-29 00:00:00,Yes,No,N/A
+DimPromotion,EndDate,Column containing EndDate,DATETIME,YYYY-MM-DD,2011-12-28 00:00:00 to 2014-06-30 00:00:00,No,No,N/A
+DimPromotion,MinQty,Column containing MinQty,INT,Integer,0 to 61,No,No,N/A
+DimPromotion,MaxQty,Column containing MaxQty,INT,Integer,14 to 60,No,No,N/A
+DimReseller,ResellerKey,Column containing ResellerKey,INT,Integer,1 to 701,Yes,PK,N/A
+DimReseller,GeographyKey,Column containing GeographyKey,INT,Integer,1 to 655,No,FK,DimGeography
+DimReseller,ResellerAlternateKey,Column containing ResellerAlternateKey,NVARCHAR,Text,AW00000001 to AW00000701,No,FK,N/A
+DimReseller,Phone,Column containing Phone,NVARCHAR,Text,1 (11) 500 555-0110 to 996-555-0196,No,No,N/A
+DimReseller,BusinessType,Column containing BusinessType,VARCHAR,Text,Specialty Bike Shop to Warehouse,Yes,No,N/A
+DimReseller,ResellerName,Column containing ResellerName,NVARCHAR,Text,A Bicycle Association to Yellow Bicycle Company,Yes,No,N/A
+DimReseller,NumberEmployees,Column containing NumberEmployees,INT,Integer,2 to 100,No,No,N/A
+DimReseller,OrderFrequency,Column containing OrderFrequency,CHAR,Text,A to S,No,No,N/A
+DimReseller,OrderMonth,Column containing OrderMonth,TINYINT,Integer,1 to 12,No,No,N/A
+DimReseller,FirstOrderYear,Column containing FirstOrderYear,INT,Integer,2010 to 2013,No,No,N/A
+DimReseller,LastOrderYear,Column containing LastOrderYear,INT,Integer,2011 to 2013,No,No,N/A
+DimReseller,ProductLine,Column containing ProductLine,NVARCHAR,Text,Mountain to Touring,No,No,N/A
+DimReseller,AddressLine1,Column containing AddressLine1,NVARCHAR,Text,#500-75 O'Connor Street to Wymbush,No,No,N/A
+DimReseller,AddressLine2,Column containing AddressLine2,NVARCHAR,Text,114 Albert Road to Verkaufsabteilung,No,No,N/A
+DimReseller,AnnualSales,Column containing AnnualSales,MONEY,Currency / Decimal,300000.0000 to 3000000.0000,No,No,N/A
+DimReseller,BankName,Column containing BankName,NVARCHAR,Text,Guardian Bank to United Security,No,No,N/A
+DimReseller,MinPaymentType,Column containing MinPaymentType,TINYINT,Integer,1 to 3,No,No,N/A
+DimReseller,MinPaymentAmount,Column containing MinPaymentAmount,MONEY,Currency / Decimal,200.0000 to 1000.0000,No,No,N/A
+DimReseller,AnnualRevenue,Column containing AnnualRevenue,MONEY,Currency / Decimal,30000.0000 to 300000.0000,No,No,N/A
+DimReseller,YearOpened,Column containing YearOpened,INT,Integer,1974 to 2005,No,No,N/A
+DimSalesReason,SalesReasonKey,Column containing SalesReasonKey,INT,Integer,1 to 10,Yes,PK,N/A
+DimSalesReason,SalesReasonAlternateKey,Column containing SalesReasonAlternateKey,INT,Integer,1 to 10,Yes,No,N/A
+DimSalesReason,SalesReasonName,Column containing SalesReasonName,NVARCHAR,Text,Demo Event to Television  Advertisement,Yes,No,N/A
+DimSalesReason,SalesReasonReasonType,Column containing SalesReasonReasonType,NVARCHAR,Text,Marketing to Promotion,Yes,No,N/A
+DimSalesTerritory,SalesTerritoryKey,Column containing SalesTerritoryKey,INT,Integer,1 to 11,Yes,PK,N/A
+DimSalesTerritory,SalesTerritoryAlternateKey,Column containing SalesTerritoryAlternateKey,INT,Integer,0 to 10,No,FK,N/A
+DimSalesTerritory,SalesTerritoryRegion,Column containing SalesTerritoryRegion,NVARCHAR,Text,Australia to United Kingdom,Yes,No,N/A
+DimSalesTerritory,SalesTerritoryCountry,Column containing SalesTerritoryCountry,NVARCHAR,Text,Australia to United States,Yes,No,N/A
+DimSalesTerritory,SalesTerritoryGroup,Column containing SalesTerritoryGroup,NVARCHAR,Text,Europe to Pacific,No,No,N/A
+DimSalesTerritory,SalesTerritoryImage,Column containing SalesTerritoryImage,VARBINARY,varbinary,N/A,No,No,N/A
+FactInternetSales,ProductKey,Column containing ProductKey,INT,Integer,214 to 606,Yes,FK,DimProduct
+FactInternetSales,OrderDateKey,Column containing OrderDateKey,INT,Integer,20101229 to 20140128,Yes,FK,DimDate
+FactInternetSales,DueDateKey,Column containing DueDateKey,INT,Integer,20110110 to 20140209,Yes,FK,DimDate
+FactInternetSales,ShipDateKey,Column containing ShipDateKey,INT,Integer,20110105 to 20140204,Yes,FK,DimDate
+FactInternetSales,CustomerKey,Column containing CustomerKey,INT,Integer,11000 to 29483,Yes,FK,DimCustomer
+FactInternetSales,PromotionKey,Column containing PromotionKey,INT,Integer,1 to 14,Yes,FK,DimPromotion
+FactInternetSales,CurrencyKey,Column containing CurrencyKey,INT,Integer,6 to 100,Yes,FK,DimCurrency
+FactInternetSales,SalesTerritoryKey,Column containing SalesTerritoryKey,INT,Integer,1 to 10,Yes,FK,DimSalesTerritory
+FactInternetSales,SalesOrderNumber,Column containing SalesOrderNumber,NVARCHAR,Text,SO43697 to SO75123,Yes,PK,N/A
+FactInternetSales,SalesOrderLineNumber,Column containing SalesOrderLineNumber,TINYINT,Integer,1 to 8,Yes,PK,N/A
+FactInternetSales,RevisionNumber,Column containing RevisionNumber,TINYINT,Integer,1,Yes,No,N/A
+FactInternetSales,OrderQuantity,Column containing OrderQuantity,SMALLINT,Integer,1,Yes,No,N/A
+FactInternetSales,UnitPrice,Column containing UnitPrice,MONEY,Currency / Decimal,2.2900 to 3578.2700,Yes,No,N/A
+FactInternetSales,ExtendedAmount,Column containing ExtendedAmount,MONEY,Currency / Decimal,2.2900 to 3578.2700,Yes,No,N/A
+FactInternetSales,UnitPriceDiscountPct,Column containing UnitPriceDiscountPct,FLOAT,Currency / Decimal,0.0,Yes,No,N/A
+FactInternetSales,DiscountAmount,Column containing DiscountAmount,FLOAT,Currency / Decimal,0.0,Yes,No,N/A
+FactInternetSales,ProductStandardCost,Column containing ProductStandardCost,MONEY,Currency / Decimal,0.8565 to 2171.2942,Yes,No,N/A
+FactInternetSales,TotalProductCost,Column containing TotalProductCost,MONEY,Currency / Decimal,0.8565 to 2171.2942,Yes,No,N/A
+FactInternetSales,SalesAmount,Column containing SalesAmount,MONEY,Currency / Decimal,2.2900 to 3578.2700,Yes,No,N/A
+FactInternetSales,TaxAmt,Column containing TaxAmt,MONEY,Currency / Decimal,0.1832 to 286.2616,Yes,No,N/A
+FactInternetSales,Freight,Column containing Freight,MONEY,Currency / Decimal,0.0573 to 89.4568,Yes,No,N/A
+FactInternetSales,CarrierTrackingNumber,Column containing CarrierTrackingNumber,NVARCHAR,Text,All NULLs,No,No,N/A
+FactInternetSales,CustomerPONumber,Column containing CustomerPONumber,NVARCHAR,Text,All NULLs,No,No,N/A
+FactInternetSales,OrderDate,Column containing OrderDate,DATETIME,YYYY-MM-DD,2010-12-29 00:00:00 to 2014-01-28 00:00:00,No,No,N/A
+FactInternetSales,DueDate,Column containing DueDate,DATETIME,YYYY-MM-DD,2011-01-10 00:00:00 to 2014-02-09 00:00:00,No,No,N/A
+FactInternetSales,ShipDate,Column containing ShipDate,DATETIME,YYYY-MM-DD,2011-01-05 00:00:00 to 2014-02-04 00:00:00,No,No,N/A
+FactInternetSalesReason,SalesOrderNumber,Column containing SalesOrderNumber,NVARCHAR,Text,SO43697 to SO75123,Yes,PK,FactInternetSales
+FactInternetSalesReason,SalesOrderLineNumber,Column containing SalesOrderLineNumber,TINYINT,Integer,1 to 8,Yes,PK,FactInternetSales
+FactInternetSalesReason,SalesReasonKey,Column containing SalesReasonKey,INT,Integer,1 to 10,Yes,PK,DimSalesReason
+FactResellerSales,ProductKey,Column containing ProductKey,INT,Integer,212 to 606,Yes,FK,DimProduct
+FactResellerSales,OrderDateKey,Column containing OrderDateKey,INT,Integer,20101229 to 20131129,Yes,FK,DimDate
+FactResellerSales,DueDateKey,Column containing DueDateKey,INT,Integer,20110110 to 20131211,Yes,FK,DimDate
+FactResellerSales,ShipDateKey,Column containing ShipDateKey,INT,Integer,20110105 to 20131206,Yes,FK,DimDate
+FactResellerSales,ResellerKey,Column containing ResellerKey,INT,Integer,1 to 701,Yes,FK,DimReseller
+FactResellerSales,EmployeeKey,Column containing EmployeeKey,INT,Integer,272 to 296,Yes,FK,DimEmployee
+FactResellerSales,PromotionKey,Column containing PromotionKey,INT,Integer,1 to 16,Yes,FK,DimPromotion
+FactResellerSales,CurrencyKey,Column containing CurrencyKey,INT,Integer,6 to 100,Yes,FK,DimCurrency
+FactResellerSales,SalesTerritoryKey,Column containing SalesTerritoryKey,INT,Integer,1 to 10,Yes,FK,DimSalesTerritory
+FactResellerSales,SalesOrderNumber,Column containing SalesOrderNumber,NVARCHAR,Text,SO43659 to SO71952,Yes,PK,N/A
+FactResellerSales,SalesOrderLineNumber,Column containing SalesOrderLineNumber,TINYINT,Integer,1 to 72,Yes,PK,N/A
+FactResellerSales,RevisionNumber,Column containing RevisionNumber,TINYINT,Integer,1 to 2,No,No,N/A
+FactResellerSales,OrderQuantity,Column containing OrderQuantity,SMALLINT,Integer,1 to 44,No,No,N/A
+FactResellerSales,UnitPrice,Column containing UnitPrice,MONEY,Currency / Decimal,1.3282 to 2146.9620,No,No,N/A
+FactResellerSales,ExtendedAmount,Column containing ExtendedAmount,MONEY,Currency / Decimal,1.3740 to 30992.9100,No,No,N/A
+FactResellerSales,UnitPriceDiscountPct,Column containing UnitPriceDiscountPct,FLOAT,Currency / Decimal,0.0 to 0.4,No,No,N/A
+FactResellerSales,DiscountAmount,Column containing DiscountAmount,FLOAT,Currency / Decimal,0.0 to 4005.2376,No,No,N/A
+FactResellerSales,ProductStandardCost,Column containing ProductStandardCost,MONEY,Currency / Decimal,0.8565 to 2171.2942,No,No,N/A
+FactResellerSales,TotalProductCost,Column containing TotalProductCost,MONEY,Currency / Decimal,0.8565 to 38530.3854,No,No,N/A
+FactResellerSales,SalesAmount,Column containing SalesAmount,MONEY,Currency / Decimal,1.3740 to 27893.6190,No,No,N/A
+FactResellerSales,TaxAmt,Column containing TaxAmt,MONEY,Currency / Decimal,0.1099 to 2231.4895,No,No,N/A
+FactResellerSales,Freight,Column containing Freight,MONEY,Currency / Decimal,0.0344 to 697.3405,No,No,N/A
+FactResellerSales,CarrierTrackingNumber,Column containing CarrierTrackingNumber,NVARCHAR,Text,000A-434D-BC to FFF9-4C3E-A9,No,No,N/A
+FactResellerSales,CustomerPONumber,Column containing CustomerPONumber,NVARCHAR,Text,PO10005144378 to PO9976195169,No,No,N/A
+FactResellerSales,OrderDate,Column containing OrderDate,DATETIME,YYYY-MM-DD,2010-12-29 00:00:00 to 2013-11-29 00:00:00,No,No,N/A
+FactResellerSales,DueDate,Column containing DueDate,DATETIME,YYYY-MM-DD,2011-01-10 00:00:00 to 2013-12-11 00:00:00,No,No,N/A
+FactResellerSales,ShipDate,Column containing ShipDate,DATETIME,YYYY-MM-DD,2011-01-05 00:00:00 to 2013-12-06 00:00:00,No,No,N/A
+FactSalesQuota,SalesQuotaKey,Column containing SalesQuotaKey,INT,Integer,1 to 163,Yes,PK,N/A
+FactSalesQuota,EmployeeKey,Column containing EmployeeKey,INT,Integer,272 to 296,Yes,FK,DimEmployee
+FactSalesQuota,DateKey,Column containing DateKey,INT,Integer,20101229 to 20130929,Yes,FK,DimDate
+FactSalesQuota,CalendarYear,Column containing CalendarYear,SMALLINT,Integer,2010 to 2013,Yes,No,N/A
+FactSalesQuota,CalendarQuarter,Column containing CalendarQuarter,TINYINT,Integer,1 to 4,Yes,No,N/A
+FactSalesQuota,SalesAmountQuota,Column containing SalesAmountQuota,MONEY,Currency / Decimal,1000.0000 to 1898000.0000,Yes,No,N/A
+FactSalesQuota,Date,Column containing Date,DATETIME,YYYY-MM-DD,2010-12-29 00:00:00 to 2013-09-29 00:00:00,No,No,N/A
