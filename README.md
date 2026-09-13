@@ -1,4 +1,5 @@
 # Adventure Works 2025 BI Solutions - Sponsor Usage Guide by McReg Analytics
+- **Dashboard Link:** https://drive.google.com/file/d/1Zz7SQ73doUF-Bbx3auZmLSrGNLMPLB-t/view?usp=sharing
 - **Prepared By:** Group 3 3DSA1: CARLOS, Mikaela Angela, DAYAG, Drei Cerise, HABALUYAS, Althea Marie, and OLIVA, Maria Camela
 - **Last Updated:** 09/2026
 
